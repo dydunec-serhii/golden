@@ -1,0 +1,91 @@
+:root {
+    --main-color: #FED136;
+    --header-color: #222222;
+    --subtitel-color: #777777;
+    --footer-color: #FFFFFF;
+    --button-color: #BBBBBB;
+}
+
+.header-link {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+
+}
+
+.header-item {}
+
+.header-list {
+    list-style: none;
+}
+
+.services-item {
+    list-style: none;
+}
+
+.main-information {
+    font-weight: 700;
+    font-style: normal;
+    color: var(--header-color);
+}
+
+.header-name {
+    font-family: "Bilbo Swash Caps";
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.services-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--header-color)
+}
+
+.main-description {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal 
+    color: var(--subtitel-color)
+}
+
+.services-description {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--subtitel-color);
+}
+
+.section-information {
+    font-family: "droid-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--subtitel-color);
+}
+
+::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--button-color);
+}
+.services-titlea{
+    color: var(--footer-color);
+}
+.servisec-color{
+    color:var(--footer-color);
+}
+.footer-color{
+    background-color: #222222;
+}
