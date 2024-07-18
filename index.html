@@ -42,7 +42,7 @@
     <main>
         <div class="container">
             <h2 class="main-information main-text">Services</h2>
-            <p class="main-description">Proin iaculis purus consequat sem cure. </p>
+            <p class="main-description flex-main">Proin iaculis purus consequat sem cure. </p>
             <ul class="services-list">
                 <li class="services-item"><img src="1jpg.png" alt="box" class="services-img">
                     <h3 class="services-title">E-Commerce</h3>
@@ -69,24 +69,33 @@
     </main>
     <footer class="footer-color">
         <div class="container">
-            <section >
+            <section>
                 <form class=" text-footer">
                     <h2 class="services-titlea">Contact us</h2>
                     <p class="section-information">Proin iaculis purus consequat sem cure.</p>
-                    <label for="user-name"></label>
-                    <input type="text" id="user-name" name="user-name"  placeholder="сергій">
-                    <br>
-                    <label for="gmail"></label>
-                    <input type="text" id="gmail" name="gmail"  placeholder="serhiy658@gmaol.com">
-                    <br>
-                    <label for="subject"></label>
-                    <input type="text" id="subject" name="subject" placeholder="subject">
-                    <br>
+                    <div class="text-flex">
+                        <div >
+                            <label for="user-name"></label>
+                            <input type="text" id="user-name" name="user-name" placeholder="сергій" class="label-flex">
+                            <br>
+                            <label for="gmail"></label>
+                            <input type="text" id="gmail" name="gmail" placeholder="serhiy658@gmaol.com"
+                                class="label-flex">
+                            <br>
+                            <label for="subject"></label>
+                            <input type="text" id="subject" name="subject" placeholder="subject" class="label-flex">
+                            <br>
+                        </div>
+                        <div >
+                            <textarea type="Comment" id="user-comment" name="Comment" placeholder="Your message"
+                                class="input-comment text-aria"></textarea>
+                        </div>
+                    </div>
                     <button type="submit" class="services-title servisec-color">SEND MESSAGE</button>
                 </form>
             </section>
         </div>
-       
+
     </footer>
 
 </body>
